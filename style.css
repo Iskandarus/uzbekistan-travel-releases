@@ -63,6 +63,7 @@ a { color: var(--primary-text); }
   font-family: "Playfair Display SC", Georgia, serif;
   font-size: 20px;
   color: var(--primary-text);
+  text-decoration: none;
 }
 
 .lang {
@@ -194,3 +195,15 @@ footer {
   margin-top: 32px;
   font-size: 15px;
 }
+
+.policy { max-width: 680px; padding-top: 40px; }
+
+.policy .meta { margin-bottom: 24px; }
+
+.policy h2 { font-size: 19px; margin: 32px 0 8px; }
+
+.policy p, .policy ul { margin: 8px 0; }
+
+.policy ul { padding-left: 22px; }
+
+.policy li { margin: 4px 0; }
